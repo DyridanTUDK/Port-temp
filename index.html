@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My PortFolio</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Navagitaion -->
+    <nav id="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#project">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <section id="home">
+      <div class="text">
+        <h1>Your Name</h1>
+        <h2>A Web Developer</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod quasi
+          incidunt dolorum doloremque ea ratione natus nemo minus enim
+          explicabo.
+        </p>
+      </div>
+      <div class="home-img">
+        <img src="./undraw_programming_re_kg9v.svg" alt="" />
+      </div>
+    </section>
+    <section id="about">
+      <div class="about-img">
+        <img src="" alt="" class="about-img-img" />
+      </div>
+      <div class="about-text">
+        <h2 class="">My Story</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, ex
+          perspiciatis nostrum fuga at culpa, adipisci tempora esse suscipit
+          porro voluptatibus ullam. Est, assumenda. Deleniti explicabo rem ullam
+          ex hic.
+        </p>
+      </div>
+    </section>
+    <section id="project">
+      <div class="project">
+        <h2>Robotics</h2>
+        <img
+          src="./undraw_maker_launch_re_rq81.svg"
+          alt=""
+          class="project-img"
+        />
+      </div>
+      <div class="project">
+        <h2>Web Developement</h2>
+        <img
+          src="./undraw_static_website_0107.svg"
+          alt=""
+          class="project-img"
+        />
+      </div>
+      <div class="project">
+        <h2>Python Programming</h2>
+        <img
+          src="./undraw_shared_workspace_re_3gsu.svg"
+          alt=""
+          class="project-img"
+        />
+      </div>
+    </section>
+    <section id="contact">
+      <form action="action_page.php">
+        <label for="fname">First Name</label> <br />
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your name.."
+        /><br />
+
+        <label for="lname">Last Name</label><br />
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="Your last name.."
+        /><br />
+        <label for="subject">Subject</label><br />
+        <textarea
+          id="subject"
+          name="subject"
+          placeholder="Write something.."
+          style="height: 200px"
+        ></textarea
+        ><br />
+
+        <button>Submit</button>
+      </form>
+    </section>
+  </body>
+</html>
