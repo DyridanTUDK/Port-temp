@@ -92,6 +92,7 @@ body {
   width: 90%;
   margin: auto;
   flex-wrap: wrap;
+   margin-top: 10rem;
 }
 
 .about-img {
